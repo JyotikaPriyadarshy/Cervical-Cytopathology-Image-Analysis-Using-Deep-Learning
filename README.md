@@ -1,11 +1,9 @@
 # Cervical Cytopathology Image Analysis Using Deep Learning
 
 ## Abstract
-
 This project presents a comprehensive deep learning approach for automated analysis and classification of cervical cytopathology images. The study implements and compares two state-of-the-art deep neural network architectures - VGG19 and CYENET - for the automated detection and classification of cervical cell abnormalities from Pap smear images. The research addresses the critical need for accurate, efficient, and cost-effective screening methods in cervical cancer prevention, leveraging advanced machine learning techniques to enhance diagnostic accuracy and reduce human error in cytopathological analysis.
 
 ## Introduction
-
 Cervical cancer remains one of the most preventable yet prevalent cancers among women worldwide. Early detection through Pap smear screening has significantly reduced cervical cancer mortality rates, but traditional manual screening methods face challenges including:
 
 - **Human Error**: Manual interpretation can lead to false negatives and positives
@@ -20,7 +18,6 @@ Deep learning technologies offer promising solutions to these challenges by prov
 - Cost-effective screening solutions
 
 ## Motivation
-
 The primary motivations for this research include:
 
 1. **Clinical Need**: Addressing the shortage of qualified cytopathologists globally
@@ -33,6 +30,7 @@ The primary motivations for this research include:
 
 ### Dataset Description
 The study utilizes a comprehensive dataset of cervical cytopathology images containing:
+
 - **Image Types**: High-resolution Pap smear images
 - **Classifications**: Multiple cervical cell abnormality categories
 - **Quality**: Professionally annotated by expert cytopathologists
@@ -100,7 +98,6 @@ The methodology follows a systematic approach:
 - Advanced pooling strategies for feature aggregation
 
 ## Evaluation Metrics
-
 The models are evaluated using comprehensive metrics suitable for medical image classification:
 
 ### Primary Metrics
@@ -133,7 +130,6 @@ The models are evaluated using comprehensive metrics suitable for medical image 
 - **Robustness**: Consistent performance across different image qualities
 
 ### Key Findings
-
 1. **Model Superiority**: CYENET outperformed VGG19 in most evaluation metrics
 2. **Clinical Relevance**: Both models achieved clinically acceptable accuracy levels
 3. **Efficiency Gains**: Deep learning approaches significantly reduced analysis time
@@ -141,7 +137,6 @@ The models are evaluated using comprehensive metrics suitable for medical image 
 5. **Scalability**: Models demonstrated potential for large-scale screening programs
 
 ### Advantages of Deep Learning for Medical Image Analysis
-
 - **Objective Analysis**: Elimination of subjective interpretation bias
 - **High Throughput**: Capability to process large volumes of images rapidly
 - **Continuous Learning**: Ability to improve with additional data
@@ -185,7 +180,6 @@ The models are evaluated using comprehensive metrics suitable for medical image 
 - **Multi-class Classification**: Extension to additional cervical pathology types
 
 ## Contributing
-
 We welcome contributions to this research project. Please follow these guidelines:
 
 1. **Code Standards**: Follow established coding conventions
@@ -194,30 +188,27 @@ We welcome contributions to this research project. Please follow these guideline
 4. **Ethical Considerations**: Ensure compliance with medical data privacy regulations
 
 ## License
-
 This project is licensed under [appropriate license] - see the LICENSE file for details.
 
 ## Citation
-
 If you use this work in your research, please cite:
-
 ```
 [Citation format to be added upon publication]
 ```
 
 ## Acknowledgments
-
 - Medical professionals who provided expert annotations
 - Dataset contributors and healthcare institutions
 - Open-source deep learning community
 - Research collaborators and advisors
 
 ## Contact
-
 For questions, collaborations, or additional information, please contact:
-
 [Contact information to be added]
 
----
+## Reference
 
+- Cervical Cytopathology Image Analysis Using Deep Learning, IJERT, 2023. [Read the full paper](https://www.ijert.org/cervical-cytopathology-image-analysis-using-deep-learning)
+
+---
 **Keywords**: Cervical Cytopathology, Deep Learning, Medical Image Analysis, VGG19, CYENET, Pap Smear, Cancer Screening, Computer-Aided Diagnosis
